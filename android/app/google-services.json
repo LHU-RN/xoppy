@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "561444294558",
+    "project_id": "xoppy-aac76",
+    "storage_bucket": "xoppy-aac76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561444294558:android:aea48749176fdfe5ad108f",
+        "android_client_info": {
+          "package_name": "com.xoppy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561444294558-nm9kck2ft0mqnvt5h98090srgb772os1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xoppy",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "561444294558-n6dqlcn4p8ra18s9l4tihjhqbkqk9dan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlTcXnGXowJetrcjPCWiDGUubfvEqQpn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561444294558-n6dqlcn4p8ra18s9l4tihjhqbkqk9dan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
