@@ -59,6 +59,10 @@ export default function LoginScreen() {
     navigation.navigate('Register');
   };
 
+  const navigateToPhoneAuth = () => {
+    navigation.navigate('PhoneAuth');
+  };
+
   return (
     <View style={styles.container}>
       <TextInput
@@ -79,6 +83,9 @@ export default function LoginScreen() {
         <Text>Register</Text>
       </Pressable>
       <Button title="Sign-In with Google" onPress={onGoogleButtonPress} />
+      <Pressable style={styles.register} onPress={navigateToPhoneAuth}>
+        <Text>Login with Phone number</Text>
+      </Pressable>
     </View>
   );
 }

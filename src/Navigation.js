@@ -6,6 +6,7 @@ import HomeScreen from './screens/HomeScreen';
 import LoginScreen from './screens/LoginScreen';
 import ProfileScreen from './screens/ProfileScreen';
 import RegisterScreen from './screens/RegisterScreen';
+import PhoneAuthScreen from './screens/PhoneAuthScreen';
 
 const AuthStack = createNativeStackNavigator();
 const HomeStack = createNativeStackNavigator();
@@ -44,6 +45,7 @@ export function AuthScreensStack() {
     <AuthStack.Navigator>
       <AuthStack.Screen name="Login" component={LoginScreen} />
       <AuthStack.Screen name="Register" component={RegisterScreen} />
+      <AuthStack.Screen name="PhoneAuth" component={PhoneAuthScreen} />
     </AuthStack.Navigator>
   );
 }

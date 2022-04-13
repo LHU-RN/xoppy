@@ -26,6 +26,7 @@ export default function App() {
   }, [isCheckedSignIn]);
 
   useEffect(() => {
+    // auth().settings.appVerificationDisabledForTesting = true;
     const subscriber = auth().onAuthStateChanged(onAuthStateChanged);
     return subscriber; // unsubscribe on unmount
   }, [onAuthStateChanged]);
