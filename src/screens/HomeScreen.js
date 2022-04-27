@@ -1,10 +1,11 @@
 import React from 'react';
-import {Text, StyleSheet, View} from 'react-native';
+import {StyleSheet, View} from 'react-native';
+import CategoriesComponent from '../components/HomeScreen/Categories';
 
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text>HomeScreen</Text>
+      <CategoriesComponent />
     </View>
   );
 }
@@ -14,6 +15,5 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 20,
     backgroundColor: '#fff',
-    justifyContent: 'center',
   },
 });
